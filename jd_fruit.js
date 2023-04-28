@@ -15,11 +15,6 @@
 [Script]
 cron "5 6-18/6 * * *" script-path=jd_fruit_task.js,tag=东东农场日常任务
 
-=========================Surge============================
-东东农场助力池版 = type=cron,cronexp="5 6-18/6 * * *",wake-system=1,timeout=3600,script-path=jd_fruit_task.js
-
-=========================小火箭===========================
-东东农场助力池版 = type=cron,script-path=jd_fruit_task.js, cronexpr="5 6-18/6 * * *", timeout=3600, enable=true
 
 export DO_TEN_WATER_AGAIN="" 默认再次浇水
 
@@ -35,9 +30,9 @@ let cookiesArr = [],
 //下面给出两个账号的填写示例（iOS只支持2个京东账号）
 let shareCodes = [ // 这个列表填入你要助力的好友的shareCode
     //     //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
-    //     '5853550f71014282912b76d95beb84c0@b58ddba3317b44ceb0ac86ea8952998c@8d724eb95e3847b6a1526587d1836f27@a80b7d1db41a4381b742232da9d22443@ce107b8f64d24f62a92292180f764018@c73ea563a77d4464b273503d3838fec1@0dd9a7fd1feb449fb1bf854a3ec0e801',
+    //     '',
     //     //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
-    //     '5853550f71014282912b76d95beb84c0@b58ddba3317b44ceb0ac86ea8952998c@8d724eb95e3847b6a1526587d1836f27@a80b7d1db41a4381b742232da9d22443@ce107b8f64d24f62a92292180f764018@c73ea563a77d4464b273503d3838fec1@0dd9a7fd1feb449fb1bf854a3ec0e801',
+    //     '',
 ]
 $.newShareCode = [];
 let codeType = 0;
